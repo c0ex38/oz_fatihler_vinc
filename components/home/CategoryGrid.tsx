@@ -12,13 +12,13 @@ const categories = [
   {
     title: "Köprülü Vinçler",
     description: "Fabrika içi verimliliği maksimize eden tavan vinç sistemleri.",
-    image: "/images/hero_crane.png", // Using hero for now as a placeholder for bridge crane
+    image: "/images/hero_crane.png",
     href: "/urunler#koprulu",
   },
   {
     title: "Pergel Vinçler",
     description: "Dar alanlarda esnek ve hassas çalışma imkanı sunan pergel sistemler.",
-    image: "/images/portal_crane.png", // Reusing image with different cropping/styling
+    image: "/images/portal_crane.png",
     href: "/urunler#pergel",
   },
 ];

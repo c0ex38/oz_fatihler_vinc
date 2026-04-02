@@ -71,14 +71,14 @@ export const EngineeringSection = () => {
                { title: "Enerji Geri Kazanımı", desc: "Rejeneratif sürüş teknolojisi ile %30'a varan tasarruf." },
                { title: "Akıllı Limit Sis.", desc: "İş güvenliğini maksimize eden hata önleyici teknolojiler." }
              ].map((item, idx) => (
-               <div key={idx} className="group/item flex items-center gap-8 p-8 bg-white/5 border border-white/5 hover:bg-white transition-all duration-500 cursor-default">
-                  <span className="text-brand-yellow font-black text-xs opacity-50 group-hover/item:opacity-100 transition-opacity">0{idx + 1}</span>
+               <div key={idx} className="group/item flex items-center gap-8 p-8 bg-white/5 border border-white/5 hover:bg-brand-yellow transition-all duration-500 cursor-default">
+                  <span className="text-brand-yellow font-black text-xs opacity-50 group-hover/item:opacity-100 group-hover/item:text-brand-dark transition-all">0{idx + 1}</span>
                   <div>
-                    <h4 className="text-white group-hover:text-brand-dark font-black uppercase tracking-widest text-xs mb-1 transition-colors">{item.title}</h4>
-                    <p className="text-zinc-500 group-hover:text-zinc-500 text-[10px] font-bold uppercase tracking-tight transition-colors">{item.desc}</p>
+                    <h4 className="text-white group-hover/item:text-brand-dark font-black uppercase tracking-widest text-xs mb-1 transition-colors">{item.title}</h4>
+                    <p className="text-zinc-500 group-hover/item:text-brand-dark/70 text-[10px] font-bold uppercase tracking-tight transition-colors">{item.desc}</p>
                   </div>
                   <div className="ml-auto opacity-0 group-hover/item:opacity-100 transition-all translate-x-4 group-hover/item:translate-x-0">
-                     <span className="text-brand-yellow text-xl">→</span>
+                     <span className="text-brand-yellow group-hover/item:text-brand-dark text-xl transition-colors">→</span>
                   </div>
                </div>
              ))}
