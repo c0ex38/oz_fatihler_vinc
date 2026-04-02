@@ -36,30 +36,30 @@ export const ContactCTA = () => {
       {/* 3. Narrative & CTA Content */}
       <Container className="relative z-10">
         <div className="max-w-5xl mx-auto text-center">
-          <div className="flex items-center justify-center gap-4 mb-12 opacity-40">
+          <div className="flex items-center justify-center gap-4 mb-8 md:mb-12 opacity-40">
              <span className="w-12 h-px bg-white" />
              <span className="text-[10px] font-black uppercase tracking-[0.6em] text-white">Project Inquiry</span>
              <span className="w-12 h-px bg-white" />
           </div>
 
-          <h2 className="text-5xl md:text-8xl font-black text-white mb-10 uppercase tracking-tighter leading-[0.85] transition-all duration-700">
+          <h2 className="text-4xl md:text-8xl font-black text-white mb-8 md:mb-10 uppercase tracking-tighter leading-[0.85] transition-all duration-700">
              MÜHENDİSLİKTE <br />
              <span className="text-brand-yellow">SINIRLARI</span> ZORLAYIN
           </h2>
           
-          <p className="text-zinc-500 text-lg md:text-xl font-medium mb-20 max-w-2xl mx-auto leading-relaxed tracking-tight">
+          <p className="text-zinc-500 text-base md:text-xl font-medium mb-12 md:mb-20 max-w-2xl mx-auto leading-relaxed tracking-tight px-4 md:px-0">
              Projenize özel vinç sistemleri ve ağır sanayi çözümleri için <br className="hidden md:block" /> 
              uzman mühendislik ekibimizle şimdi bağlantı kurun.
           </p>
 
-          <div className="flex flex-col md:flex-row justify-center items-center gap-10">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-10 px-4 md:px-0">
             {/* Main Action */}
             <Link
               href="/iletisim#teklif-formu"
-              className="group/btn relative px-20 py-7 bg-white text-brand-dark font-black uppercase tracking-[0.3em] overflow-hidden transition-all hover:bg-brand-yellow shadow-2xl"
+              className="group/btn relative w-full md:w-auto px-8 md:px-20 py-6 md:py-7 bg-white text-brand-dark font-black uppercase tracking-[0.3em] overflow-hidden transition-all hover:bg-brand-yellow shadow-2xl"
             >
               <div className="absolute bottom-0 left-0 w-full h-1 bg-brand-yellow group-hover/btn:bg-brand-dark transition-colors" />
-              <span className="relative z-10 flex items-center gap-4 text-sm">
+              <span className="relative z-10 flex items-center justify-center gap-4 text-xs md:text-sm">
                 HEMEN TEKLİF ALIN
                 <span className="text-xl group-hover/btn:translate-x-2 transition-transform">→</span>
               </span>

@@ -3,6 +3,7 @@ import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { AboutSection } from "@/components/home/AboutSection";
 import { EngineeringSection } from "@/components/home/EngineeringSection";
 import { ContactCTA } from "@/components/home/ContactCTA";
+import { ReferenceSlider } from "@/components/home/ReferenceSlider";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <section className="animate-in fade-in duration-1000 fill-mode-both">
         <AboutSection />
       </section>
+
+      <ReferenceSlider />
       
       <ContactCTA />
     </div>

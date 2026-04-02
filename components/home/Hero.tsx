@@ -18,9 +18,9 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/40 to-transparent" />
       </div>
 
-      <Container className="relative z-10 h-full flex flex-col justify-end items-end pb-32 md:pb-48">
-        <div className="max-w-xl text-right animate-in fade-in slide-in-from-right-10 duration-1000 fill-mode-both translate-x-4 md:translate-x-12">
-          <h1 className="text-xl md:text-2xl font-black text-white tracking-[0.4em] uppercase drop-shadow-2xl leading-relaxed">
+      <Container className="relative z-10 h-full flex flex-col justify-end items-center md:items-end pb-32 md:pb-48">
+        <div className="max-w-xl text-center md:text-right animate-in fade-in slide-in-from-bottom md:slide-in-from-right-10 duration-1000 fill-mode-both translate-x-0 md:translate-x-12">
+          <h1 className="text-4xl md:text-2xl font-black text-white tracking-[0.2em] md:tracking-[0.4em] uppercase drop-shadow-2xl leading-tight md:leading-relaxed">
             Geleceğin Yükünü <br />
             Birlikte Kaldıralım
           </h1>
